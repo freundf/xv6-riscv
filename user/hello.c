@@ -3,6 +3,7 @@
 
 int main() {
     printf("Hello userspace\n");
+    hello();
     return 0;
 }
 
