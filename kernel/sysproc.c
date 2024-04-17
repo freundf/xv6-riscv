@@ -94,6 +94,8 @@ sys_uptime(void)
 uint64
 sys_hello(void)
 {
-  printf("Hello kernelspace\n");
+  int i;
+  argint(0, &i);
+  printf("Hello kernelspace, Group %d\n", i);
   return 0;
 }

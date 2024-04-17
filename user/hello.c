@@ -2,8 +2,9 @@
 #include "user/user.h"
 
 int main() {
-    printf("Hello userspace\n");
-    hello();
+    int group = 1;
+    printf("Hello userspace, Group %d\n", group);
+    hello(group);
     return 0;
 }
 
